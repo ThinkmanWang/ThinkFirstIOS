@@ -3,11 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		017696E41EB209615F557988 /* Pods_ThinkFirstIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BDA8F0CDFCA013CA6E7C81 /* Pods_ThinkFirstIOS.framework */; };
+		821F97BA25920E3B00C12A6C /* TYCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97B625920E3B00C12A6C /* TYCyclePagerViewCell.m */; };
+		821F97BB25920E3B00C12A6C /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97B725920E3B00C12A6C /* BannerViewController.m */; };
+		821F97C5259216A300C12A6C /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97C0259216A200C12A6C /* BaseListViewController.m */; };
+		821F97C6259216A300C12A6C /* SimpleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97C1259216A200C12A6C /* SimpleListViewController.m */; };
+		821F97C7259216A300C12A6C /* SimpleListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 821F97C2259216A200C12A6C /* SimpleListCollectionViewCell.xib */; };
+		821F97C8259216A300C12A6C /* SimpleListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97C3259216A300C12A6C /* SimpleListCollectionViewCell.m */; };
+		821F97CB2592175200C12A6C /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 821F97CA2592175200C12A6C /* banner.png */; };
 		824787D5259208AE006745FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787D4259208AE006745FC /* AppDelegate.m */; };
 		824787E0259208B0006745FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824787DF259208B0006745FC /* Assets.xcassets */; };
 		824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824787E1259208B1006745FC /* LaunchScreen.storyboard */; };
@@ -34,6 +41,18 @@
 /* Begin PBXFileReference section */
 		0428BC0E0004766BF272DC34 /* Pods-ThinkFirstIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkFirstIOS.debug.xcconfig"; path = "Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6CED4119C482FF42E5455A2D /* Pods-ThinkFirstIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkFirstIOS.release.xcconfig"; path = "Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS.release.xcconfig"; sourceTree = "<group>"; };
+		821F97B625920E3B00C12A6C /* TYCyclePagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerViewCell.m; sourceTree = "<group>"; };
+		821F97B725920E3B00C12A6C /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		821F97B825920E3B00C12A6C /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		821F97B925920E3B00C12A6C /* TYCyclePagerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerViewCell.h; sourceTree = "<group>"; };
+		821F97BE259216A200C12A6C /* SimpleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListViewController.h; sourceTree = "<group>"; };
+		821F97BF259216A200C12A6C /* SimpleListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListCollectionViewCell.h; sourceTree = "<group>"; };
+		821F97C0259216A200C12A6C /* BaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewController.m; sourceTree = "<group>"; };
+		821F97C1259216A200C12A6C /* SimpleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleListViewController.m; sourceTree = "<group>"; };
+		821F97C2259216A200C12A6C /* SimpleListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleListCollectionViewCell.xib; sourceTree = "<group>"; };
+		821F97C3259216A300C12A6C /* SimpleListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleListCollectionViewCell.m; sourceTree = "<group>"; };
+		821F97C4259216A300C12A6C /* BaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListViewController.h; sourceTree = "<group>"; };
+		821F97CA2592175200C12A6C /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
 		824787D0259208AE006745FC /* ThinkFirstIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFirstIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824787D3259208AE006745FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824787D4259208AE006745FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +104,31 @@
 				86BDA8F0CDFCA013CA6E7C81 /* Pods_ThinkFirstIOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		821F97B525920E0800C12A6C /* banner */ = {
+			isa = PBXGroup;
+			children = (
+				821F97B825920E3B00C12A6C /* BannerViewController.h */,
+				821F97B725920E3B00C12A6C /* BannerViewController.m */,
+				821F97B925920E3B00C12A6C /* TYCyclePagerViewCell.h */,
+				821F97B625920E3B00C12A6C /* TYCyclePagerViewCell.m */,
+			);
+			path = banner;
+			sourceTree = "<group>";
+		};
+		821F97BD259215FC00C12A6C /* SimpleList */ = {
+			isa = PBXGroup;
+			children = (
+				821F97C4259216A300C12A6C /* BaseListViewController.h */,
+				821F97C0259216A200C12A6C /* BaseListViewController.m */,
+				821F97BF259216A200C12A6C /* SimpleListCollectionViewCell.h */,
+				821F97C3259216A300C12A6C /* SimpleListCollectionViewCell.m */,
+				821F97C2259216A200C12A6C /* SimpleListCollectionViewCell.xib */,
+				821F97BE259216A200C12A6C /* SimpleListViewController.h */,
+				821F97C1259216A200C12A6C /* SimpleListViewController.m */,
+			);
+			path = SimpleList;
 			sourceTree = "<group>";
 		};
 		824787C7259208AE006745FC = {
@@ -171,6 +215,8 @@
 		8247880925920A1D006745FC /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				821F97B525920E0800C12A6C /* banner */,
+				821F97BD259215FC00C12A6C /* SimpleList */,
 				8247880225920A06006745FC /* ViewController.h */,
 				8247880025920A06006745FC /* ViewController.m */,
 				8247880125920A06006745FC /* ViewController.xib */,
@@ -183,6 +229,7 @@
 		8247880F25920AE1006745FC /* img */ = {
 			isa = PBXGroup;
 			children = (
+				821F97CA2592175200C12A6C /* banner.png */,
 				8247881625920B12006745FC /* image0.jpg */,
 				8247881225920B11006745FC /* image1.jpg */,
 				8247881425920B12006745FC /* image2.jpg */,
@@ -203,7 +250,6 @@
 				0428BC0E0004766BF272DC34 /* Pods-ThinkFirstIOS.debug.xcconfig */,
 				6CED4119C482FF42E5455A2D /* Pods-ThinkFirstIOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -267,12 +313,14 @@
 			files = (
 				824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */,
 				8247881B25920B12006745FC /* image3.jpg in Resources */,
+				821F97C7259216A300C12A6C /* SimpleListCollectionViewCell.xib in Resources */,
 				8247881A25920B12006745FC /* image12.gif in Resources */,
 				8247880625920A06006745FC /* ViewController.xib in Resources */,
 				824787E0259208B0006745FC /* Assets.xcassets in Resources */,
 				8247881F25920B12006745FC /* image4.jpg in Resources */,
 				8247882025920B12006745FC /* image0.jpg in Resources */,
 				8247881D25920B12006745FC /* LaunchImageAd.json in Resources */,
+				821F97CB2592175200C12A6C /* banner.png in Resources */,
 				8247881E25920B12006745FC /* image2.jpg in Resources */,
 				8247882225920B12006745FC /* video1.mp4 in Resources */,
 				8247882325920B12006745FC /* video0.mp4 in Resources */,
@@ -332,11 +380,16 @@
 			files = (
 				8247880525920A06006745FC /* ViewController.m in Sources */,
 				8247880C25920AA9006745FC /* XHLaunchAdManager.m in Sources */,
+				821F97C6259216A300C12A6C /* SimpleListViewController.m in Sources */,
 				824787D5259208AE006745FC /* AppDelegate.m in Sources */,
 				8247880425920A06006745FC /* WebViewController.m in Sources */,
+				821F97BB25920E3B00C12A6C /* BannerViewController.m in Sources */,
 				824787F5259209D5006745FC /* LaunchAdModel.m in Sources */,
+				821F97BA25920E3B00C12A6C /* TYCyclePagerViewCell.m in Sources */,
 				824787F9259209E8006745FC /* Network.m in Sources */,
+				821F97C5259216A300C12A6C /* BaseListViewController.m in Sources */,
 				824787E6259208B1006745FC /* main.m in Sources */,
+				821F97C8259216A300C12A6C /* SimpleListCollectionViewCell.m in Sources */,
 				824787FD259209F6006745FC /* UIViewController+Nav.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
