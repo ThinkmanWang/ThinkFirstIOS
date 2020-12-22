@@ -7,28 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017696E41EB209615F557988 /* Pods_ThinkFirstIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BDA8F0CDFCA013CA6E7C81 /* Pods_ThinkFirstIOS.framework */; };
 		824787D5259208AE006745FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787D4259208AE006745FC /* AppDelegate.m */; };
-		824787D8259208AE006745FC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787D7259208AE006745FC /* SceneDelegate.m */; };
-		824787DB259208AE006745FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787DA259208AE006745FC /* ViewController.m */; };
-		824787DE259208AE006745FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824787DC259208AE006745FC /* Main.storyboard */; };
 		824787E0259208B0006745FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824787DF259208B0006745FC /* Assets.xcassets */; };
 		824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824787E1259208B1006745FC /* LaunchScreen.storyboard */; };
 		824787E6259208B1006745FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787E5259208B1006745FC /* main.m */; };
+		824787F5259209D5006745FC /* LaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787F4259209D5006745FC /* LaunchAdModel.m */; };
+		824787F9259209E8006745FC /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787F7259209E8006745FC /* Network.m */; };
+		824787FD259209F6006745FC /* UIViewController+Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787FC259209F6006745FC /* UIViewController+Nav.m */; };
+		8247880425920A06006745FC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787FF25920A06006745FC /* WebViewController.m */; };
+		8247880525920A06006745FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8247880025920A06006745FC /* ViewController.m */; };
+		8247880625920A06006745FC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8247880125920A06006745FC /* ViewController.xib */; };
+		8247880C25920AA9006745FC /* XHLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8247880B25920AA9006745FC /* XHLaunchAdManager.m */; };
+		8247881A25920B12006745FC /* image12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8247881025920B11006745FC /* image12.gif */; };
+		8247881B25920B12006745FC /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8247881125920B11006745FC /* image3.jpg */; };
+		8247881C25920B12006745FC /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8247881225920B11006745FC /* image1.jpg */; };
+		8247881D25920B12006745FC /* LaunchImageAd.json in Resources */ = {isa = PBXBuildFile; fileRef = 8247881325920B11006745FC /* LaunchImageAd.json */; };
+		8247881E25920B12006745FC /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8247881425920B12006745FC /* image2.jpg */; };
+		8247881F25920B12006745FC /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8247881525920B12006745FC /* image4.jpg */; };
+		8247882025920B12006745FC /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8247881625920B12006745FC /* image0.jpg */; };
+		8247882125920B12006745FC /* LaunchVideoAd.json in Resources */ = {isa = PBXBuildFile; fileRef = 8247881725920B12006745FC /* LaunchVideoAd.json */; };
+		8247882225920B12006745FC /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8247881825920B12006745FC /* video1.mp4 */; };
+		8247882325920B12006745FC /* video0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8247881925920B12006745FC /* video0.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0428BC0E0004766BF272DC34 /* Pods-ThinkFirstIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkFirstIOS.debug.xcconfig"; path = "Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6CED4119C482FF42E5455A2D /* Pods-ThinkFirstIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkFirstIOS.release.xcconfig"; path = "Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS.release.xcconfig"; sourceTree = "<group>"; };
 		824787D0259208AE006745FC /* ThinkFirstIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFirstIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824787D3259208AE006745FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824787D4259208AE006745FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		824787D6259208AE006745FC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		824787D7259208AE006745FC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		824787D9259208AE006745FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		824787DA259208AE006745FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		824787DD259208AE006745FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		824787DF259208B0006745FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824787E2259208B1006745FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824787E4259208B1006745FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		824787E5259208B1006745FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		824787F3259209D5006745FC /* LaunchAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchAdModel.h; path = libs/Model/LaunchAdModel.h; sourceTree = "<group>"; };
+		824787F4259209D5006745FC /* LaunchAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchAdModel.m; path = libs/Model/LaunchAdModel.m; sourceTree = "<group>"; };
+		824787F7259209E8006745FC /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Network.m; path = libs/Tools/Network/Network.m; sourceTree = "<group>"; };
+		824787F8259209E8006745FC /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Network.h; path = libs/Tools/Network/Network.h; sourceTree = "<group>"; };
+		824787FB259209F6006745FC /* UIViewController+Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Nav.h"; path = "libs/Tools/UIViewController+/UIViewController+Nav.h"; sourceTree = "<group>"; };
+		824787FC259209F6006745FC /* UIViewController+Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Nav.m"; path = "libs/Tools/UIViewController+/UIViewController+Nav.m"; sourceTree = "<group>"; };
+		824787FF25920A06006745FC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		8247880025920A06006745FC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8247880125920A06006745FC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8247880225920A06006745FC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8247880325920A06006745FC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8247880A25920AA9006745FC /* XHLaunchAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdManager.h; sourceTree = "<group>"; };
+		8247880B25920AA9006745FC /* XHLaunchAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdManager.m; sourceTree = "<group>"; };
+		8247881025920B11006745FC /* image12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image12.gif; sourceTree = "<group>"; };
+		8247881125920B11006745FC /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		8247881225920B11006745FC /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		8247881325920B11006745FC /* LaunchImageAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchImageAd.json; sourceTree = "<group>"; };
+		8247881425920B12006745FC /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		8247881525920B12006745FC /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		8247881625920B12006745FC /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		8247881725920B12006745FC /* LaunchVideoAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchVideoAd.json; sourceTree = "<group>"; };
+		8247881825920B12006745FC /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		8247881925920B12006745FC /* video0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video0.mp4; sourceTree = "<group>"; };
+		86BDA8F0CDFCA013CA6E7C81 /* Pods_ThinkFirstIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkFirstIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +72,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017696E41EB209615F557988 /* Pods_ThinkFirstIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58CF94A9F3800390B9FE841C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86BDA8F0CDFCA013CA6E7C81 /* Pods_ThinkFirstIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		824787C7259208AE006745FC = {
 			isa = PBXGroup;
 			children = (
+				8247880F25920AE1006745FC /* img */,
+				824787EE25920988006745FC /* libs */,
 				824787D2259208AE006745FC /* ThinkFirstIOS */,
 				824787D1259208AE006745FC /* Products */,
+				A4BADAE2A4507C289DA24A9B /* Pods */,
+				58CF94A9F3800390B9FE841C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +110,101 @@
 		824787D2259208AE006745FC /* ThinkFirstIOS */ = {
 			isa = PBXGroup;
 			children = (
+				8247880A25920AA9006745FC /* XHLaunchAdManager.h */,
+				8247880B25920AA9006745FC /* XHLaunchAdManager.m */,
+				8247880925920A1D006745FC /* pages */,
 				824787D3259208AE006745FC /* AppDelegate.h */,
 				824787D4259208AE006745FC /* AppDelegate.m */,
-				824787D6259208AE006745FC /* SceneDelegate.h */,
-				824787D7259208AE006745FC /* SceneDelegate.m */,
-				824787D9259208AE006745FC /* ViewController.h */,
-				824787DA259208AE006745FC /* ViewController.m */,
-				824787DC259208AE006745FC /* Main.storyboard */,
 				824787DF259208B0006745FC /* Assets.xcassets */,
 				824787E1259208B1006745FC /* LaunchScreen.storyboard */,
 				824787E4259208B1006745FC /* Info.plist */,
 				824787E5259208B1006745FC /* main.m */,
 			);
 			path = ThinkFirstIOS;
+			sourceTree = "<group>";
+		};
+		824787EE25920988006745FC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				824787F0259209AE006745FC /* Tools */,
+				824787EF259209A2006745FC /* Model */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		824787EF259209A2006745FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				824787F3259209D5006745FC /* LaunchAdModel.h */,
+				824787F4259209D5006745FC /* LaunchAdModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		824787F0259209AE006745FC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				824787F2259209C2006745FC /* UIViewController+ */,
+				824787F1259209B6006745FC /* Network */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		824787F1259209B6006745FC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				824787F8259209E8006745FC /* Network.h */,
+				824787F7259209E8006745FC /* Network.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		824787F2259209C2006745FC /* UIViewController+ */ = {
+			isa = PBXGroup;
+			children = (
+				824787FB259209F6006745FC /* UIViewController+Nav.h */,
+				824787FC259209F6006745FC /* UIViewController+Nav.m */,
+			);
+			name = "UIViewController+";
+			sourceTree = "<group>";
+		};
+		8247880925920A1D006745FC /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				8247880225920A06006745FC /* ViewController.h */,
+				8247880025920A06006745FC /* ViewController.m */,
+				8247880125920A06006745FC /* ViewController.xib */,
+				8247880325920A06006745FC /* WebViewController.h */,
+				824787FF25920A06006745FC /* WebViewController.m */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		8247880F25920AE1006745FC /* img */ = {
+			isa = PBXGroup;
+			children = (
+				8247881625920B12006745FC /* image0.jpg */,
+				8247881225920B11006745FC /* image1.jpg */,
+				8247881425920B12006745FC /* image2.jpg */,
+				8247881125920B11006745FC /* image3.jpg */,
+				8247881525920B12006745FC /* image4.jpg */,
+				8247881025920B11006745FC /* image12.gif */,
+				8247881325920B11006745FC /* LaunchImageAd.json */,
+				8247881725920B12006745FC /* LaunchVideoAd.json */,
+				8247881925920B12006745FC /* video0.mp4 */,
+				8247881825920B12006745FC /* video1.mp4 */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		A4BADAE2A4507C289DA24A9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0428BC0E0004766BF272DC34 /* Pods-ThinkFirstIOS.debug.xcconfig */,
+				6CED4119C482FF42E5455A2D /* Pods-ThinkFirstIOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 824787E9259208B1006745FC /* Build configuration list for PBXNativeTarget "ThinkFirstIOS" */;
 			buildPhases = (
+				EDDF574E0A91D8E427F7D3D6 /* [CP] Check Pods Manifest.lock */,
 				824787CC259208AE006745FC /* Sources */,
 				824787CD259208AE006745FC /* Frameworks */,
 				824787CE259208AE006745FC /* Resources */,
+				1E33E924DD01F42D70DC64FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,36 +266,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */,
+				8247881B25920B12006745FC /* image3.jpg in Resources */,
+				8247881A25920B12006745FC /* image12.gif in Resources */,
+				8247880625920A06006745FC /* ViewController.xib in Resources */,
 				824787E0259208B0006745FC /* Assets.xcassets in Resources */,
-				824787DE259208AE006745FC /* Main.storyboard in Resources */,
+				8247881F25920B12006745FC /* image4.jpg in Resources */,
+				8247882025920B12006745FC /* image0.jpg in Resources */,
+				8247881D25920B12006745FC /* LaunchImageAd.json in Resources */,
+				8247881E25920B12006745FC /* image2.jpg in Resources */,
+				8247882225920B12006745FC /* video1.mp4 in Resources */,
+				8247882325920B12006745FC /* video0.mp4 in Resources */,
+				8247881C25920B12006745FC /* image1.jpg in Resources */,
+				8247882125920B12006745FC /* LaunchVideoAd.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E33E924DD01F42D70DC64FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDDF574E0A91D8E427F7D3D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThinkFirstIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		824787CC259208AE006745FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824787DB259208AE006745FC /* ViewController.m in Sources */,
+				8247880525920A06006745FC /* ViewController.m in Sources */,
+				8247880C25920AA9006745FC /* XHLaunchAdManager.m in Sources */,
 				824787D5259208AE006745FC /* AppDelegate.m in Sources */,
+				8247880425920A06006745FC /* WebViewController.m in Sources */,
+				824787F5259209D5006745FC /* LaunchAdModel.m in Sources */,
+				824787F9259209E8006745FC /* Network.m in Sources */,
 				824787E6259208B1006745FC /* main.m in Sources */,
-				824787D8259208AE006745FC /* SceneDelegate.m in Sources */,
+				824787FD259209F6006745FC /* UIViewController+Nav.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		824787DC259208AE006745FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				824787DD259208AE006745FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		824787E1259208B1006745FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +469,7 @@
 		};
 		824787EA259208B1006745FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0428BC0E0004766BF272DC34 /* Pods-ThinkFirstIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +487,7 @@
 		};
 		824787EB259208B1006745FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CED4119C482FF42E5455A2D /* Pods-ThinkFirstIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
