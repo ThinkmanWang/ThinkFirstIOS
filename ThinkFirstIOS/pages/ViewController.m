@@ -49,7 +49,7 @@
         @{@"sectionTitle": @"基本使用", @"classes": @[
             @{@"title": @"Banner", @"class": @"BannerViewController"},
             @{@"title": @"ListView", @"class": @"SimpleListViewController"},
-            @{@"title": @"", @"class": @"DistinctSectionsViewController"},
+            @{@"title": @"Dialog", @"class": @"DialogViewController"},
         ]},
         @{@"sectionTitle": @" view(补充视图)", @"classes": @[
             @{@"title": @"", @"class": @"BadgeViewController"},
