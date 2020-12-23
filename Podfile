@@ -12,6 +12,7 @@ target 'ThinkFirstIOS' do
   pod 'Masonry'
   pod 'XHLaunchAd'
   pod 'FLAnimatedImage'
+  pod 'YYWebImage'
 
   # Pods for ThinkIOS
 

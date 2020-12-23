@@ -7,9 +7,10 @@
 //
 
 #import "TYCyclePagerViewCell.h"
+#import <YYWebImage/YYWebImage.h>
 
 @interface TYCyclePagerViewCell ()
-@property (nonatomic, weak) UILabel *label;
+
 @end
 
 @implementation TYCyclePagerViewCell
@@ -41,14 +42,11 @@
 }
 
 - (void)addImage {
-    UIImage* banner = [UIImage imageNamed:@"banner.png"];
     
-//    NSURL *url = [NSURL URLWithString:path];
-//    NSData *data = [NSData dataWithContentsOfURL:url];
-//    UIImage *img = [[UIImage alloc] initWithData:data];
-    
-    UIImageView* image = [[UIImageView alloc] initWithImage:banner];
+    UIImageView* image = [UIImageView new];
     image.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame));
+    image.yy_imageURL = [NSURL URLWithString:@"http://ad.huina365.cn/0037b216e535fc465f78cf85d573acac.jpg"];
+
     [self addSubview:image];
     
     _image = image;

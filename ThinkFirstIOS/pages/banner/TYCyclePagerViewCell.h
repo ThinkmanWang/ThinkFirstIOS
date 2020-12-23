@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TYCyclePagerViewCell : UICollectionViewCell
-
-@property (nonatomic, weak, readonly) UILabel *label;
+@property (nonatomic, weak) UILabel *label;
 @property UIImageView* image;
-
 @end
