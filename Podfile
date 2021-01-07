@@ -13,6 +13,10 @@ target 'ThinkFirstIOS' do
   pod 'XHLaunchAd'
   pod 'FLAnimatedImage'
   pod 'YYWebImage'
+  pod 'SCLAlertView-Objective-C'
+  
+  pod 'Bytedance-UnionAD', '~> 3.3.1.5'
+
 
   # Pods for ThinkIOS
 

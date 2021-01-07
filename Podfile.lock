@@ -22,8 +22,10 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Bytedance-UnionAD (3.3.1.5)
   - FLAnimatedImage (1.0.12)
   - Masonry (1.1.0)
+  - SCLAlertView-Objective-C (1.2.0)
   - SDAutoLayout (2.2.1)
   - TYCyclePagerView (1.2.0)
   - WMZDialog (1.2.0)
@@ -42,8 +44,10 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - Bytedance-UnionAD (~> 3.3.1.5)
   - FLAnimatedImage
   - Masonry
+  - SCLAlertView-Objective-C
   - SDAutoLayout
   - TYCyclePagerView
   - WMZDialog
@@ -55,8 +59,10 @@ SPEC REPOS:
   trunk:
     - AFDownloadRequestOperation
     - AFNetworking
+    - Bytedance-UnionAD
     - FLAnimatedImage
     - Masonry
+    - SCLAlertView-Objective-C
     - SDAutoLayout
     - TYCyclePagerView
     - WMZDialog
@@ -69,8 +75,10 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Bytedance-UnionAD: 0166f1cc5d366f958b693546b7c897232a306ebb
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SCLAlertView-Objective-C: 84f12f66d779dadad7f293e5e8b7697ba4254ee0
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
   TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
   WMZDialog: c78c481e493dd6463195950dc737ecbc7ffad6ab
@@ -80,6 +88,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 6308a58b5019b11908c0049569a3484422871c88
+PODFILE CHECKSUM: 9e4728f813053c24256f6c39fcc04fe99fb4586b
 
 COCOAPODS: 1.10.0
