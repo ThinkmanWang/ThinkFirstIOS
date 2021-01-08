@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		017696E41EB209615F557988 /* Pods_ThinkFirstIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BDA8F0CDFCA013CA6E7C81 /* Pods_ThinkFirstIOS.framework */; };
+		821091FC25A804AF00E5B44A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821091FB25A804AF00E5B44A /* StoreKit.framework */; };
+		821091FE25A804B900E5B44A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821091FD25A804B900E5B44A /* MobileCoreServices.framework */; };
+		8210920025A804C400E5B44A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821091FF25A804C400E5B44A /* WebKit.framework */; };
+		8210920225A804D100E5B44A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920125A804D100E5B44A /* MediaPlayer.framework */; };
+		8210920425A804DE00E5B44A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920325A804DE00E5B44A /* CoreMedia.framework */; };
+		8210920625A804E700E5B44A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920525A804E700E5B44A /* CoreLocation.framework */; };
+		8210920825A804EF00E5B44A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920725A804EF00E5B44A /* AVFoundation.framework */; };
+		8210920A25A804F700E5B44A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920925A804F700E5B44A /* CoreTelephony.framework */; };
+		8210920C25A804FF00E5B44A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920B25A804FF00E5B44A /* SystemConfiguration.framework */; };
+		8210920E25A8050600E5B44A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920D25A8050600E5B44A /* AdSupport.framework */; };
+		8210921025A8050D00E5B44A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210920F25A8050D00E5B44A /* CoreMotion.framework */; };
+		8210921225A8051700E5B44A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210921125A8051600E5B44A /* Accelerate.framework */; };
+		8210921425A8052200E5B44A /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210921325A8052200E5B44A /* libresolv.9.tbd */; };
+		8210921725A8053000E5B44A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210921625A8053000E5B44A /* libc++.tbd */; };
+		8210921A25A8053700E5B44A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210921925A8053700E5B44A /* libz.tbd */; };
+		8210921D25A8054100E5B44A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210921C25A8054100E5B44A /* libsqlite3.tbd */; };
+		8210922025A8054900E5B44A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210921F25A8054900E5B44A /* libbz2.tbd */; };
+		8210922325A8055000E5B44A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210922225A8055000E5B44A /* libxml2.tbd */; };
+		8210922625A8055900E5B44A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210922525A8055900E5B44A /* libiconv.tbd */; };
+		8210922925A8056300E5B44A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210922825A8056300E5B44A /* Security.framework */; };
+		8210922C25A8063600E5B44A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8210922B25A8063600E5B44A /* ImageIO.framework */; };
 		82169E232593159F00B95A6D /* DialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82169E222593159F00B95A6D /* DialogViewController.m */; };
 		821F97BA25920E3B00C12A6C /* TYCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97B625920E3B00C12A6C /* TYCyclePagerViewCell.m */; };
 		821F97BB25920E3B00C12A6C /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97B725920E3B00C12A6C /* BannerViewController.m */; };
@@ -43,6 +64,27 @@
 /* Begin PBXFileReference section */
 		0428BC0E0004766BF272DC34 /* Pods-ThinkFirstIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkFirstIOS.debug.xcconfig"; path = "Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6CED4119C482FF42E5455A2D /* Pods-ThinkFirstIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkFirstIOS.release.xcconfig"; path = "Target Support Files/Pods-ThinkFirstIOS/Pods-ThinkFirstIOS.release.xcconfig"; sourceTree = "<group>"; };
+		821091FB25A804AF00E5B44A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		821091FD25A804B900E5B44A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		821091FF25A804C400E5B44A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8210920125A804D100E5B44A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8210920325A804DE00E5B44A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8210920525A804E700E5B44A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8210920725A804EF00E5B44A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8210920925A804F700E5B44A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8210920B25A804FF00E5B44A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8210920D25A8050600E5B44A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8210920F25A8050D00E5B44A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8210921125A8051600E5B44A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8210921325A8052200E5B44A /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		8210921625A8053000E5B44A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8210921925A8053700E5B44A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8210921C25A8054100E5B44A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8210921F25A8054900E5B44A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		8210922225A8055000E5B44A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8210922525A8055900E5B44A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8210922825A8056300E5B44A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8210922B25A8063600E5B44A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		82169E212593159F00B95A6D /* DialogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialogViewController.h; sourceTree = "<group>"; };
 		82169E222593159F00B95A6D /* DialogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialogViewController.m; sourceTree = "<group>"; };
 		821F97B625920E3B00C12A6C /* TYCyclePagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerViewCell.m; sourceTree = "<group>"; };
@@ -97,6 +139,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8210922C25A8063600E5B44A /* ImageIO.framework in Frameworks */,
+				8210922925A8056300E5B44A /* Security.framework in Frameworks */,
+				8210922625A8055900E5B44A /* libiconv.tbd in Frameworks */,
+				8210922325A8055000E5B44A /* libxml2.tbd in Frameworks */,
+				8210922025A8054900E5B44A /* libbz2.tbd in Frameworks */,
+				8210921D25A8054100E5B44A /* libsqlite3.tbd in Frameworks */,
+				8210921A25A8053700E5B44A /* libz.tbd in Frameworks */,
+				8210921725A8053000E5B44A /* libc++.tbd in Frameworks */,
+				8210921425A8052200E5B44A /* libresolv.9.tbd in Frameworks */,
+				8210921225A8051700E5B44A /* Accelerate.framework in Frameworks */,
+				8210921025A8050D00E5B44A /* CoreMotion.framework in Frameworks */,
+				8210920E25A8050600E5B44A /* AdSupport.framework in Frameworks */,
+				8210920C25A804FF00E5B44A /* SystemConfiguration.framework in Frameworks */,
+				8210920A25A804F700E5B44A /* CoreTelephony.framework in Frameworks */,
+				8210920825A804EF00E5B44A /* AVFoundation.framework in Frameworks */,
+				8210920625A804E700E5B44A /* CoreLocation.framework in Frameworks */,
+				8210920425A804DE00E5B44A /* CoreMedia.framework in Frameworks */,
+				8210920225A804D100E5B44A /* MediaPlayer.framework in Frameworks */,
+				8210920025A804C400E5B44A /* WebKit.framework in Frameworks */,
+				821091FE25A804B900E5B44A /* MobileCoreServices.framework in Frameworks */,
+				821091FC25A804AF00E5B44A /* StoreKit.framework in Frameworks */,
 				017696E41EB209615F557988 /* Pods_ThinkFirstIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +170,27 @@
 		58CF94A9F3800390B9FE841C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8210922B25A8063600E5B44A /* ImageIO.framework */,
+				8210922825A8056300E5B44A /* Security.framework */,
+				8210922525A8055900E5B44A /* libiconv.tbd */,
+				8210922225A8055000E5B44A /* libxml2.tbd */,
+				8210921F25A8054900E5B44A /* libbz2.tbd */,
+				8210921C25A8054100E5B44A /* libsqlite3.tbd */,
+				8210921925A8053700E5B44A /* libz.tbd */,
+				8210921625A8053000E5B44A /* libc++.tbd */,
+				8210921325A8052200E5B44A /* libresolv.9.tbd */,
+				8210921125A8051600E5B44A /* Accelerate.framework */,
+				8210920F25A8050D00E5B44A /* CoreMotion.framework */,
+				8210920D25A8050600E5B44A /* AdSupport.framework */,
+				8210920B25A804FF00E5B44A /* SystemConfiguration.framework */,
+				8210920925A804F700E5B44A /* CoreTelephony.framework */,
+				8210920725A804EF00E5B44A /* AVFoundation.framework */,
+				8210920525A804E700E5B44A /* CoreLocation.framework */,
+				8210920325A804DE00E5B44A /* CoreMedia.framework */,
+				8210920125A804D100E5B44A /* MediaPlayer.framework */,
+				821091FF25A804C400E5B44A /* WebKit.framework */,
+				821091FD25A804B900E5B44A /* MobileCoreServices.framework */,
+				821091FB25A804AF00E5B44A /* StoreKit.framework */,
 				86BDA8F0CDFCA013CA6E7C81 /* Pods_ThinkFirstIOS.framework */,
 			);
 			name = Frameworks;
