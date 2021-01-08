@@ -11,7 +11,8 @@
 #import <BUAdSDK/BUAdSDK.h>
 
 @interface AppDelegate ()
-
+@property BUSplashAdView* splashAdView;
+@property NSTimer* timer;
 @end
 
 @implementation AppDelegate
@@ -31,10 +32,54 @@
     return YES;
 }
 
+- (void)splashAdDidClickSkip:(BUSplashAdView *)splashAd {
+//    [self handleSplashDimiss:splashAd];
+    // 'zoomOutView' is nil, there will be no subsequent operation to completely remove splashAdView and avoid memory leak
+    // 'zoomOutView' is not nil，do nothing
+    
+    NSLog(@"splashAdDidClickSkip");
+    [self removeSplashAdView];
+}
+
+- (void)splashAdDidLoad:(BUSplashAdView *)splashAd {
+    NSLog(@"splashAdDidLoad");
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(dismissAd:) userInfo:nil repeats:NO];
+}
+
+- (void)splashAdDidClick:(BUSplashAdView *)splashAd {
+    if (splashAd.zoomOutView) {
+        [splashAd.zoomOutView removeFromSuperview];
+    }
+    [splashAd removeFromSuperview];
+}
+
+- (void) removeSplashAdView {
+    [self.splashAdView removeFromSuperview];
+}
+
+- (void) dismissAd:(NSTimer*)timer {
+    NSLog(@"dismissDialog");
+
+    [self removeSplashAdView];
+}
+
 - (void) initByteDanceAD {
     [BUAdSDKManager setAppID:@"5134179"];
     [BUAdSDKManager setLoglevel:BUAdSDKLogLevelDebug];
     [BUAdSDKManager setCoppa:0];
+    
+    CGRect frame = [UIScreen mainScreen].bounds;
+    self.splashAdView = [[BUSplashAdView alloc] initWithSlotID:@"887421551" frame:frame];
+    // tolerateTimeout = CGFLOAT_MAX , The conversion time to milliseconds will be equal to 0
+    self.splashAdView.tolerateTimeout = 10;
+    self.splashAdView.delegate = self;
+    //optional
+    self.splashAdView.needSplashZoomOutAd = YES;
+    UIWindow *keyWindow = self.window;
+//    self.startTime = CACurrentMediaTime();
+    [self.splashAdView loadAdData];
+    [keyWindow.rootViewController.view addSubview:self.splashAdView];
+    self.splashAdView.rootViewController = keyWindow.rootViewController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

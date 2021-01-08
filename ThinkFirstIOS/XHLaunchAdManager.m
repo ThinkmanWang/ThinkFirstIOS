@@ -33,7 +33,7 @@
 @implementation XHLaunchAdManager
 
 +(void)load{
-    [self shareManager];
+//    [self shareManager];
 }
 
 +(XHLaunchAdManager *)shareManager{
