@@ -37,6 +37,7 @@
 		821F97C7259216A300C12A6C /* SimpleListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 821F97C2259216A200C12A6C /* SimpleListCollectionViewCell.xib */; };
 		821F97C8259216A300C12A6C /* SimpleListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97C3259216A300C12A6C /* SimpleListCollectionViewCell.m */; };
 		821F97CB2592175200C12A6C /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 821F97CA2592175200C12A6C /* banner.png */; };
+		823AAB4025A844F000097778 /* BUDAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB3E25A844F000097778 /* BUDAnimationTool.m */; };
 		824787D5259208AE006745FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787D4259208AE006745FC /* AppDelegate.m */; };
 		824787E0259208B0006745FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824787DF259208B0006745FC /* Assets.xcassets */; };
 		824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824787E1259208B1006745FC /* LaunchScreen.storyboard */; };
@@ -100,6 +101,8 @@
 		821F97C3259216A300C12A6C /* SimpleListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleListCollectionViewCell.m; sourceTree = "<group>"; };
 		821F97C4259216A300C12A6C /* BaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListViewController.h; sourceTree = "<group>"; };
 		821F97CA2592175200C12A6C /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		823AAB3E25A844F000097778 /* BUDAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUDAnimationTool.m; path = libs/Animation/BUDAnimationTool.m; sourceTree = SOURCE_ROOT; };
+		823AAB3F25A844F000097778 /* BUDAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUDAnimationTool.h; path = libs/Animation/BUDAnimationTool.h; sourceTree = SOURCE_ROOT; };
 		824787D0259208AE006745FC /* ThinkFirstIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFirstIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824787D3259208AE006745FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824787D4259208AE006745FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -231,6 +234,15 @@
 			path = SimpleList;
 			sourceTree = "<group>";
 		};
+		823AAB3D25A8442E00097778 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				823AAB3F25A844F000097778 /* BUDAnimationTool.h */,
+				823AAB3E25A844F000097778 /* BUDAnimationTool.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		824787C7259208AE006745FC = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +283,7 @@
 		824787EE25920988006745FC /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				823AAB3D25A8442E00097778 /* Animation */,
 				824787F0259209AE006745FC /* Tools */,
 				824787EF259209A2006745FC /* Model */,
 			);
@@ -514,6 +527,7 @@
 				82169E232593159F00B95A6D /* DialogViewController.m in Sources */,
 				821F97C6259216A300C12A6C /* SimpleListViewController.m in Sources */,
 				824787D5259208AE006745FC /* AppDelegate.m in Sources */,
+				823AAB4025A844F000097778 /* BUDAnimationTool.m in Sources */,
 				8247880425920A06006745FC /* WebViewController.m in Sources */,
 				821F97BB25920E3B00C12A6C /* BannerViewController.m in Sources */,
 				824787F5259209D5006745FC /* LaunchAdModel.m in Sources */,
