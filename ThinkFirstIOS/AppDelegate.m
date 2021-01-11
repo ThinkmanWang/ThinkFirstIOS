@@ -67,6 +67,7 @@
     [BUAdSDKManager setAppID:@"5134179"];
     [BUAdSDKManager setLoglevel:BUAdSDKLogLevelDebug];
     [BUAdSDKManager setCoppa:0];
+    [BUAdSDKManager setIsPaidApp:NO];
     
     CGRect frame = [UIScreen mainScreen].bounds;
     self.splashAdView = [[BUSplashAdView alloc] initWithSlotID:@"887421551" frame:frame];
