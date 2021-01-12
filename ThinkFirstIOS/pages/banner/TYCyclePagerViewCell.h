@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BUAdSDK/BUNativeExpressBannerView.h>
+#import <BUAdSDK/BUAdSDK.h>
 
 @interface TYCyclePagerViewCell : UICollectionViewCell
 @property (nonatomic, weak) UILabel *label;
 @property UIImageView* image;
+@property(nonatomic, strong) BUNativeExpressBannerView *bannerView;
 @end
