@@ -29,6 +29,7 @@
 - (void)initView {
     self.sizeDcit = @{
         @"945742204"         :  [NSValue valueWithCGSize:CGSizeMake(600, 300)]
+        , @"945741009"         :  [NSValue valueWithCGSize:CGSizeMake(600, 260)]
     };
     
     
@@ -64,7 +65,7 @@
     [self.bannerView loadAdData];
     
     //banner 2
-    self.bannerView1 = [[BUNativeExpressBannerView alloc] initWithSlotID:@"945742204" rootViewController:self adSize:size interval:30];
+    self.bannerView1 = [[BUNativeExpressBannerView alloc] initWithSlotID:@"945741009" rootViewController:self adSize:size interval:30];
     self.bannerView1.frame = CGRectMake(0
                                         , topbarHeight + CGRectGetWidth(self.view.frame) / 2
                                         , CGRectGetWidth(self.view.frame)
