@@ -9,6 +9,9 @@
 #import "TYCyclePagerViewCell.h"
 #import <YYWebImage/YYWebImage.h>
 
+#import <BUAdSDK/BUNativeExpressBannerView.h>
+#import <BUAdSDK/BUAdSDK.h>
+
 @interface TYCyclePagerViewCell ()<BUNativeExpressBannerViewDelegate>
 
 @end
@@ -25,13 +28,13 @@
     return self;
 }
 
-- (instancetype)initWithCoder:(NSCoder *)aDecoder {
-    if (self = [super initWithCoder:aDecoder]) {
-        self.backgroundColor = [UIColor clearColor];
-        [self addImage];
-    }
-    return self;
-}
+//- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+//    if (self = [super initWithCoder:aDecoder]) {
+//        self.backgroundColor = [UIColor clearColor];
+//        [self addImage];
+//    }
+//    return self;
+//}
 
 
 - (void)addLabel {
@@ -84,7 +87,7 @@
     self.bannerView.delegate = self.window.rootViewController;
     
     [self.bannerView loadAdData];
-    
+        
     [self addSubview:self.bannerView];
 }
 

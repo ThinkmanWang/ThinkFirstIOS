@@ -53,7 +53,7 @@
         ]},
         @{@"sectionTitle": @"穿山甲", @"classes": @[
             @{@"title": @"Banner", @"class": @"PangleBannerViewController"},
-            @{@"title": @"", @"class": @"HeaderFooterViewController"}
+            @{@"title": @"插屏", @"class": @"InterstitialViewController"}
         ]},
         @{@"sectionTitle": @"", @"classes": @[
             @{@"title": @"", @"class": @"DecorateViewController"},
