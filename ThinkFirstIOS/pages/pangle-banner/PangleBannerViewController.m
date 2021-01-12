@@ -12,6 +12,8 @@
 
 @interface PangleBannerViewController ()<BUNativeExpressBannerViewDelegate>
 @property(nonatomic, strong) BUNativeExpressBannerView *bannerView;
+@property(nonatomic, strong) BUNativeExpressBannerView *bannerView1;
+@property(nonatomic, strong) BUNativeExpressBannerView *bannerView2;
 @property(nonatomic, copy) NSDictionary *sizeDcit;
 @end
 
@@ -50,17 +52,37 @@
     CGFloat topbarHeight = ([UIApplication sharedApplication].statusBarFrame.size.height +
            (self.navigationController.navigationBar.frame.size.height ?: 0.0));
     
+    //banner 1
     NSValue *sizeValue = [self.sizeDcit objectForKey:@"945742204"];
     CGSize size = [sizeValue CGSizeValue];
     self.bannerView = [[BUNativeExpressBannerView alloc] initWithSlotID:@"945742204" rootViewController:self adSize:size interval:30];
     self.bannerView.frame = CGRectMake(0, topbarHeight, CGRectGetWidth(self.view.frame), CGRectGetWidth(self.view.frame) / 2);
     self.bannerView.delegate = self;
-//    self.bannerView.interval = 30;
     [self.bannerView loadAdData];
+    
+    //banner 2
+    self.bannerView1 = [[BUNativeExpressBannerView alloc] initWithSlotID:@"945742204" rootViewController:self adSize:size interval:30];
+    self.bannerView1.frame = CGRectMake(0
+                                        , topbarHeight + CGRectGetWidth(self.view.frame) / 2
+                                        , CGRectGetWidth(self.view.frame)
+                                        , CGRectGetWidth(self.view.frame) / 2);
+    self.bannerView1.delegate = self;
+    [self.bannerView1 loadAdData];
+    
+    //banner 3
+    self.bannerView2 = [[BUNativeExpressBannerView alloc] initWithSlotID:@"945742204" rootViewController:self adSize:size interval:30];
+    self.bannerView2.frame = CGRectMake(0
+                                        , topbarHeight + CGRectGetWidth(self.view.frame)
+                                        , CGRectGetWidth(self.view.frame)
+                                        , CGRectGetWidth(self.view.frame) / 2);
+    self.bannerView2.delegate = self;
+    [self.bannerView2 loadAdData];
 }
 
 - (void)showBanner {
     [self.view addSubview:self.bannerView];
+    [self.view addSubview:self.bannerView1];
+    [self.view addSubview:self.bannerView2];
 //    self.selectedView.promptStatus = BUDPromptStatusDefault;
 }
 

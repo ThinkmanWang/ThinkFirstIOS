@@ -38,6 +38,7 @@
 		821F97C8259216A300C12A6C /* SimpleListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 821F97C3259216A300C12A6C /* SimpleListCollectionViewCell.m */; };
 		821F97CB2592175200C12A6C /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 821F97CA2592175200C12A6C /* banner.png */; };
 		823AAB4025A844F000097778 /* BUDAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB3E25A844F000097778 /* BUDAnimationTool.m */; };
+		823AAB4B25AC733400097778 /* PangleBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB4A25AC733400097778 /* PangleBannerViewController.m */; };
 		824787D5259208AE006745FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787D4259208AE006745FC /* AppDelegate.m */; };
 		824787E0259208B0006745FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824787DF259208B0006745FC /* Assets.xcassets */; };
 		824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824787E1259208B1006745FC /* LaunchScreen.storyboard */; };
@@ -103,6 +104,8 @@
 		821F97CA2592175200C12A6C /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
 		823AAB3E25A844F000097778 /* BUDAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUDAnimationTool.m; path = libs/Animation/BUDAnimationTool.m; sourceTree = SOURCE_ROOT; };
 		823AAB3F25A844F000097778 /* BUDAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUDAnimationTool.h; path = libs/Animation/BUDAnimationTool.h; sourceTree = SOURCE_ROOT; };
+		823AAB4925AC733400097778 /* PangleBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PangleBannerViewController.h; sourceTree = "<group>"; };
+		823AAB4A25AC733400097778 /* PangleBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PangleBannerViewController.m; sourceTree = "<group>"; };
 		824787D0259208AE006745FC /* ThinkFirstIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFirstIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824787D3259208AE006745FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824787D4259208AE006745FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -243,6 +246,15 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		823AAB4325AC6C0600097778 /* pangle-banner */ = {
+			isa = PBXGroup;
+			children = (
+				823AAB4925AC733400097778 /* PangleBannerViewController.h */,
+				823AAB4A25AC733400097778 /* PangleBannerViewController.m */,
+			);
+			path = "pangle-banner";
+			sourceTree = "<group>";
+		};
 		824787C7259208AE006745FC = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +341,7 @@
 		8247880925920A1D006745FC /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				823AAB4325AC6C0600097778 /* pangle-banner */,
 				82169E202593157800B95A6D /* dialog */,
 				821F97B525920E0800C12A6C /* banner */,
 				821F97BD259215FC00C12A6C /* SimpleList */,
@@ -535,6 +548,7 @@
 				824787F9259209E8006745FC /* Network.m in Sources */,
 				821F97C5259216A300C12A6C /* BaseListViewController.m in Sources */,
 				824787E6259208B1006745FC /* main.m in Sources */,
+				823AAB4B25AC733400097778 /* PangleBannerViewController.m in Sources */,
 				821F97C8259216A300C12A6C /* SimpleListCollectionViewCell.m in Sources */,
 				824787FD259209F6006745FC /* UIViewController+Nav.m in Sources */,
 			);
