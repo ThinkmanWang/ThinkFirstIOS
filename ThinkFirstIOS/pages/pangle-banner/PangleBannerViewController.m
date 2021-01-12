@@ -56,7 +56,10 @@
     NSValue *sizeValue = [self.sizeDcit objectForKey:@"945742204"];
     CGSize size = [sizeValue CGSizeValue];
     self.bannerView = [[BUNativeExpressBannerView alloc] initWithSlotID:@"945742204" rootViewController:self adSize:size interval:30];
-    self.bannerView.frame = CGRectMake(0, topbarHeight, CGRectGetWidth(self.view.frame), CGRectGetWidth(self.view.frame) / 2);
+    self.bannerView.frame = CGRectMake(0
+                                       , topbarHeight
+                                       , CGRectGetWidth(self.view.frame)
+                                       , CGRectGetWidth(self.view.frame) / 2);
     self.bannerView.delegate = self;
     [self.bannerView loadAdData];
     
