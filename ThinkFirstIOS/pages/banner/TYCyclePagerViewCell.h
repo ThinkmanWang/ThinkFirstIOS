@@ -13,5 +13,4 @@
 @interface TYCyclePagerViewCell : UICollectionViewCell
 @property (nonatomic, weak) UILabel *label;
 @property UIImageView* image;
-@property(nonatomic, strong) BUNativeExpressBannerView *bannerView;
 @end
