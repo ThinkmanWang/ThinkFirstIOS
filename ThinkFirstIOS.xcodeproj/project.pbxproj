@@ -41,7 +41,6 @@
 		823AAB4B25AC733400097778 /* PangleBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB4A25AC733400097778 /* PangleBannerViewController.m */; };
 		823AAB5725ADD33C00097778 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB5625ADD33C00097778 /* InterstitialViewController.m */; };
 		823AAB5C25AEC81F00097778 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB5B25AEC81F00097778 /* FeedViewController.m */; };
-		823AAB6A25AEE6D400097778 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB6925AEE6D400097778 /* FeedCell.m */; };
 		824787D5259208AE006745FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787D4259208AE006745FC /* AppDelegate.m */; };
 		824787E0259208B0006745FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824787DF259208B0006745FC /* Assets.xcassets */; };
 		824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824787E1259208B1006745FC /* LaunchScreen.storyboard */; };
@@ -113,8 +112,6 @@
 		823AAB5625ADD33C00097778 /* InterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
 		823AAB5A25AEC81F00097778 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
 		823AAB5B25AEC81F00097778 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
-		823AAB6825AEE6D400097778 /* FeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
-		823AAB6925AEE6D400097778 /* FeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
 		824787D0259208AE006745FC /* ThinkFirstIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFirstIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824787D3259208AE006745FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824787D4259208AE006745FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -278,8 +275,6 @@
 			children = (
 				823AAB5A25AEC81F00097778 /* FeedViewController.h */,
 				823AAB5B25AEC81F00097778 /* FeedViewController.m */,
-				823AAB6825AEE6D400097778 /* FeedCell.h */,
-				823AAB6925AEE6D400097778 /* FeedCell.m */,
 			);
 			path = feed;
 			sourceTree = "<group>";
@@ -566,7 +561,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8247880525920A06006745FC /* ViewController.m in Sources */,
-				823AAB6A25AEE6D400097778 /* FeedCell.m in Sources */,
 				82E0406925A45EB600D27255 /* LoadTest.m in Sources */,
 				8247880C25920AA9006745FC /* XHLaunchAdManager.m in Sources */,
 				82169E232593159F00B95A6D /* DialogViewController.m in Sources */,

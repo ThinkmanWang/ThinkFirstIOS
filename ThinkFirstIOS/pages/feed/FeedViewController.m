@@ -13,7 +13,6 @@
 
 #import <TYCyclePagerView/TYCyclePagerView.h>
 #import <TYCyclePagerView/TYPageControl.h>
-#import "FeedCell.h"
 #import <Masonry/Masonry.h>
 
 @interface FeedViewController () <BUNativeExpressAdViewDelegate>
