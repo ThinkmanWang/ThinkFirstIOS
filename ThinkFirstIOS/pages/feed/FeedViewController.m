@@ -161,7 +161,17 @@
 //        cell.backgroundColor = [UIColor whiteColor];
 //    }
     UICollectionViewCell* cell = [pagerView dequeueReusableCellWithReuseIdentifier:@"cellId" forIndex:index];
-    cell.backgroundColor = [UIColor greenColor];
+    UIView *subView = (UIView *)[cell.contentView viewWithTag:1000];
+    if ([subView superview]) {
+        [subView removeFromSuperview];
+    }
+    
+    UIView *view = [self.expressAdViews objectAtIndex:index];
+    view.tag = 1000;
+//    [self addAccessibilityIdentifier:view];
+    [cell.contentView addSubview:view];
+    
+//    cell.backgroundColor = [UIColor greenColor];
     
     return cell;
 }
@@ -271,5 +281,20 @@
 - (void)pagerView:(TYCyclePagerView *)pageView didSelectedItemCell:(__kindof UICollectionViewCell *)cell atIndex:(NSInteger)index {
     NSLog(@"Open banner ad at position: %ld", index);
 }
+
+//#pragma mark - AccessibilityIdentifier
+//- (void)addAccessibilityIdentifier {
+//    self.widthSlider.accessibilityIdentifier = @"expressFeed_width";
+//    self.heightSlider.accessibilityIdentifier = @"expressFeed_height";
+//    self.adCountSlider.accessibilityIdentifier = @"expressFeed_count";
+//}
+//
+//- (void)addAccessibilityIdentifier:(UIView *)adView {
+//    adView.accessibilityIdentifier = @"express_feed_view";
+//}
+//
+//- (void)removeAccessibilityIdentifier:(UIView *)adView {
+//    adView.accessibilityIdentifier = nil;
+//}
 
 @end
