@@ -40,6 +40,8 @@
 		823AAB4025A844F000097778 /* BUDAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB3E25A844F000097778 /* BUDAnimationTool.m */; };
 		823AAB4B25AC733400097778 /* PangleBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB4A25AC733400097778 /* PangleBannerViewController.m */; };
 		823AAB5725ADD33C00097778 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB5625ADD33C00097778 /* InterstitialViewController.m */; };
+		823AAB5C25AEC81F00097778 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB5B25AEC81F00097778 /* FeedViewController.m */; };
+		823AAB6A25AEE6D400097778 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AAB6925AEE6D400097778 /* FeedCell.m */; };
 		824787D5259208AE006745FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824787D4259208AE006745FC /* AppDelegate.m */; };
 		824787E0259208B0006745FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824787DF259208B0006745FC /* Assets.xcassets */; };
 		824787E3259208B1006745FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824787E1259208B1006745FC /* LaunchScreen.storyboard */; };
@@ -109,6 +111,10 @@
 		823AAB4A25AC733400097778 /* PangleBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PangleBannerViewController.m; sourceTree = "<group>"; };
 		823AAB5525ADD33C00097778 /* InterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
 		823AAB5625ADD33C00097778 /* InterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
+		823AAB5A25AEC81F00097778 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		823AAB5B25AEC81F00097778 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		823AAB6825AEE6D400097778 /* FeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		823AAB6925AEE6D400097778 /* FeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
 		824787D0259208AE006745FC /* ThinkFirstIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFirstIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824787D3259208AE006745FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824787D4259208AE006745FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -267,6 +273,17 @@
 			path = interstitial;
 			sourceTree = "<group>";
 		};
+		823AAB5925AEC80800097778 /* feed */ = {
+			isa = PBXGroup;
+			children = (
+				823AAB5A25AEC81F00097778 /* FeedViewController.h */,
+				823AAB5B25AEC81F00097778 /* FeedViewController.m */,
+				823AAB6825AEE6D400097778 /* FeedCell.h */,
+				823AAB6925AEE6D400097778 /* FeedCell.m */,
+			);
+			path = feed;
+			sourceTree = "<group>";
+		};
 		824787C7259208AE006745FC = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +370,7 @@
 		8247880925920A1D006745FC /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				823AAB5925AEC80800097778 /* feed */,
 				823AAB5425ADD2EC00097778 /* interstitial */,
 				823AAB4325AC6C0600097778 /* pangle-banner */,
 				82169E202593157800B95A6D /* dialog */,
@@ -548,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8247880525920A06006745FC /* ViewController.m in Sources */,
+				823AAB6A25AEE6D400097778 /* FeedCell.m in Sources */,
 				82E0406925A45EB600D27255 /* LoadTest.m in Sources */,
 				8247880C25920AA9006745FC /* XHLaunchAdManager.m in Sources */,
 				82169E232593159F00B95A6D /* DialogViewController.m in Sources */,
@@ -557,6 +576,7 @@
 				8247880425920A06006745FC /* WebViewController.m in Sources */,
 				821F97BB25920E3B00C12A6C /* BannerViewController.m in Sources */,
 				824787F5259209D5006745FC /* LaunchAdModel.m in Sources */,
+				823AAB5C25AEC81F00097778 /* FeedViewController.m in Sources */,
 				821F97BA25920E3B00C12A6C /* TYCyclePagerViewCell.m in Sources */,
 				824787F9259209E8006745FC /* Network.m in Sources */,
 				821F97C5259216A300C12A6C /* BaseListViewController.m in Sources */,

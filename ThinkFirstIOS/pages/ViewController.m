@@ -54,6 +54,7 @@
         @{@"sectionTitle": @"穿山甲", @"classes": @[
             @{@"title": @"Banner", @"class": @"PangleBannerViewController"},
             @{@"title": @"插屏", @"class": @"InterstitialViewController"}
+            , @{@"title": @"原生广告", @"class": @"FeedViewController"}
         ]},
         @{@"sectionTitle": @"", @"classes": @[
             @{@"title": @"", @"class": @"DecorateViewController"},
