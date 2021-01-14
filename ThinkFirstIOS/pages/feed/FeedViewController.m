@@ -60,18 +60,29 @@
 //    }];
 }
 
+- (void) initBottomAd:(BUNativeExpressAdView *) pBottomAd {
+    [self.view addSubview:pBottomAd];
+    
+    [pBottomAd mas_makeConstraints:^(MASConstraintMaker* make) {
+        make.top.equalTo(self.pagerView.mas_bottom);
+        make.left.equalTo(self.pagerView.mas_left);
+    }];
+    
+    
+}
+
 - (void) initAd {
     self.expressAdViews = [NSMutableArray new];
     
-    BUAdSlot *slot1 = [[BUAdSlot alloc] init];
-    slot1.ID = @"945746795";
-    slot1.AdType = BUAdSlotAdTypeFeed;
+    BUAdSlot *slot = [[BUAdSlot alloc] init];
+    slot.ID = @"945746795";
+    slot.AdType = BUAdSlotAdTypeFeed;
     BUSize *imgSize = [BUSize sizeBy:BUProposalSize_Feed228_150];
-    slot1.imgSize = imgSize;
-    slot1.position = BUAdSlotPositionFeed;
+    slot.imgSize = imgSize;
+    slot.position = BUAdSlotPositionFeed;
     // self.nativeExpressAdManager可以重用
     if (!self.nativeExpressAdManager) {
-        self.nativeExpressAdManager = [[BUNativeExpressAdManager alloc] initWithSlot:slot1 adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 0)];
+        self.nativeExpressAdManager = [[BUNativeExpressAdManager alloc] initWithSlot:slot adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 0)];
     }
     self.nativeExpressAdManager.adSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 0);
     self.nativeExpressAdManager.delegate = self;
@@ -191,7 +202,11 @@
     [self.expressAdViews removeAllObjects];
     if (views.count) {
 
-        [self.expressAdViews addObjectsFromArray:views];
+//        [self.expressAdViews addObjectsFromArray:views];
+        for (int i = 1; i < views.count; ++i) {
+            [self.expressAdViews addObject:views[i]];
+        }
+        
 //        [self.expressAdViews addObject:views.firstObject];
         [views enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             BUNativeExpressAdView *expressView = (BUNativeExpressAdView *)obj;
@@ -204,6 +219,7 @@
     }
     
     [self initData];
+    [self initBottomAd:views[0]];
     [self pbud_logWithSEL:_cmd msg:@""];
 }
 
