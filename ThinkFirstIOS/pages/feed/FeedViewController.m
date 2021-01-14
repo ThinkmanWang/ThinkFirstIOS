@@ -160,6 +160,7 @@
 //        cell.backgroundColor = [UIColor whiteColor];
 //    }
     UICollectionViewCell* cell = [pagerView dequeueReusableCellWithReuseIdentifier:@"cellId" forIndex:index];
+    
     UIView *subView = (UIView *)[cell.contentView viewWithTag:1000];
     if ([subView superview]) {
         [subView removeFromSuperview];

@@ -9,6 +9,8 @@
 #import <XHLaunchAd/XHLaunchAd.h>
 #import "ViewController.h"
 #import <BUAdSDK/BUAdSDK.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+#import <AdSupport/AdSupport.h>
 
 #import "BUDAnimationTool.h"
 
@@ -33,9 +35,39 @@
     [self.window makeKeyAndVisible];
     
     // initialize AD SDK
-    [self initByteDanceAD];
+    
+    [self requestIDFA];
     
     return YES;
+}
+
+- (void)requestIDFA {
+    if (@available(iOS 14.0, *)) {
+        ATTrackingManagerAuthorizationStatus states = [ATTrackingManager trackingAuthorizationStatus];
+        if (ATTrackingManagerAuthorizationStatusAuthorized == states) {
+            NSLog(@"Request IDFA SUCCESS!!!");
+            [self initByteDanceAD: [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString] ];
+        } else if (states == ATTrackingManagerAuthorizationStatusNotDetermined) {
+            [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+              // Tracking authorization completed. Start loading ads here.
+              // [self loadAd];
+                if (status == ATTrackingManagerAuthorizationStatusAuthorized) {
+                    NSLog(@"Request IDFA SUCCESS!!!");
+                    [self initByteDanceAD: [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString] ];
+                } else {
+                    NSLog(@"Request IDFA FAILED!!!");
+                    [self initByteDanceAD: nil];
+                }
+                
+            }];
+        } else {
+            [self initByteDanceAD: nil];
+        }
+      
+    } else {
+        NSLog(@"Request IDFA SUCCESS!!!");
+        [self initByteDanceAD: [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString] ];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -63,7 +95,10 @@
 #pragma mark - BUAdSDK
 
 
-- (void) initByteDanceAD {
+- (void) initByteDanceAD:(NSString*) szIDFA {
+//    if (szIDFA != nil) {
+//        [BUAdSDKManager :szIDFA];
+//    }
     [BUAdSDKManager setAppID:@"5134179"];
     [BUAdSDKManager setLoglevel:BUAdSDKLogLevelDebug];
     [BUAdSDKManager setCoppa:0];

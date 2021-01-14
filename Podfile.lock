@@ -28,7 +28,7 @@ PODS:
   - SCLAlertView-Objective-C (1.2.0)
   - SDAutoLayout (2.2.1)
   - TYCyclePagerView (1.2.0)
-  - WMZDialog (1.2.3)
+  - WMZDialog (1.2.4)
   - XHLaunchAd (3.9.12):
     - FLAnimatedImage (~> 1.0.12)
   - YTKNetwork (1.3.0):
@@ -81,7 +81,7 @@ SPEC CHECKSUMS:
   SCLAlertView-Objective-C: 84f12f66d779dadad7f293e5e8b7697ba4254ee0
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
   TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
-  WMZDialog: 32d00d014ae289e1c9cba7c4ce1e28710973568e
+  WMZDialog: 024b203253c920c88366965798333ad010891730
   XHLaunchAd: 6320f9c68732667323072fc3a5f104e40fbe9cfe
   YTKNetwork: a9fdf7968deefb06a58d988148558453005564c4
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
