@@ -63,6 +63,7 @@
 - (void) initBottomAd:(BUNativeExpressAdView *) pBottomAd {
     [self.view addSubview:pBottomAd];
     
+//    pBottomAd.rootViewController = self;
     [pBottomAd mas_makeConstraints:^(MASConstraintMaker* make) {
         make.top.equalTo(self.pagerView.mas_bottom);
         make.left.equalTo(self.pagerView.mas_left);
@@ -202,10 +203,10 @@
     [self.expressAdViews removeAllObjects];
     if (views.count) {
 
-//        [self.expressAdViews addObjectsFromArray:views];
-        for (int i = 1; i < views.count; ++i) {
-            [self.expressAdViews addObject:views[i]];
-        }
+        [self.expressAdViews addObjectsFromArray:views];
+//        for (int i = 1; i < views.count; ++i) {
+////            [self.expressAdViews addObject:views[i]];
+//        }
         
 //        [self.expressAdViews addObject:views.firstObject];
         [views enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -219,7 +220,6 @@
     }
     
     [self initData];
-    [self initBottomAd:views[0]];
     [self pbud_logWithSEL:_cmd msg:@""];
 }
 
